@@ -1,0 +1,191 @@
+{
+  "company": {
+    "name": "The Hex Project",
+    "logo": "/assets/images/logo.png"
+  },
+
+  "navigation": [
+    {
+      "name": "About",
+      "href": "about"
+    },
+    {
+      "name": "Equipment",
+      "href": "product"
+    },
+    {
+      "name": "Services",
+      "href": "features"
+    },
+    {
+      "name": "Gallery",
+      "href": "gallery"
+    }
+  ],
+  "callToAction": {
+    "text": "Hire",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "The Hex Project",
+    "subtitle": "Professional sound hire",
+    "description": "UK based, professional audio rental company providing scalable Element 5 systems to suit your events needs",
+    "img": "/assets/images/hexLogo.png",
+    "primaryAction": {
+      "text": "Hire",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "More info",
+      "href": "about"
+    }
+  },
+  "gallery": {},
+  "product": {
+    "title": "Our Equipment",
+    "description": "The Element 5 Hex range of speakers has been designed from the ground up to deliver the highest possible volume and sound quality from a lightwight package with an incredibly small footprint. Not only do these speakers sound spectacular, but they also look the part, with a contemporary hexagonal styling to help distinguish your event audio from the rest. We are currently the only audio hire hire company officring this uniquely distinctive sound system.",
+    "items": [
+      {
+        "title": "HEX 68R",
+        "description": "The 44M and 48M Series amplifiers from Linea Research represent a major advancement in amplifier technology. With their unique audio performance and integration of intelligent DSP, they offer a level of sound quality and performance that is unmatched. ",
+        "one": "Wide dispersion for optimal sound coverage",
+        "two": "Exceptionally flat mid-frequency response for natural sound reproduction",
+        "three": "Superb high-frequency characteristics for clear and crisp audio",
+        "four": "High sensitivity for powerful, impactful sound output",
+        "img": "/assets/images/68r.jpg"
+      },
+      {
+        "title": "HEX RB218",
+        "description": "The RB218 is a compact and lightwuight dual 18\" reflex subwoofer delivering an abundance of warm and tight low end which is highly controllable using multiple cardioid configurations. This enables the client to effectively control sound overspill both on and off site.",
+        "one": "Abundant Warm and Tight Low End: The RB218 delivers rich, full-bodied low-end sound that will enhance any audio setup.",
+        "two": "Highly Controllable Sound: Multiple cardioid configurations allow for precise control of sound overspill, both on and off site, giving you complete control over your audio experience.",
+        "three": "Extremely Low Distortion: The RB218 provides crystal clear sound reproduction, with minimal distortion, ensuring that your audio is always of the highest quality.",
+        "four": "Small Footprint and Scalable: Its compact design makes it easy to transport and set up, and its scalability makes it suitable for events of any size.",
+        "img": "/assets/images/rb218.jpg"
+      },
+      {
+        "title": "LINEA RESEARCH AMPLIFICATION",
+        "description": "Offering a unique and peerless audio performance integrated with an intelligent DSP, the 44M and 48M Series represents an unmatched advancement in amplifier technology.",
+        "description2": "In addition to this, they also utilise FIR (Finite Impulse Response) presets, which contribute to their exceptional performance. FIR presets allow for precise, accurate sound tuning, resulting in a more natural and lifelike audio experience. They eliminate the negative effects of traditional analog filters, such as phase shifting and group delay. As a result, the 44M and 48M Series amplifiers offer a truly immersive audio experience for all listeners.",
+        "one": "Over designed high capacity power supplies",
+        "two": "Unrivalled power and audio quality",
+        "three": "High performance DSP processing",
+        "four": "Sonically pure Class D amplification",
+        "img": "/assets/images/linea.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Other services we provide",
+    "subtitle": "All the best technologies out there!",
+    "description": "It is also possible for us to source other Element 5 equipment which is not currently currently in our inventory. We also have a considerable amount of Martin Audio sound equipment available for hire alongside a selection of up to date DJ and monitoring equipment. working together with our partners, we can provide exciting talent including:",
+    "items": [
+      {
+        "name": "Bespoke set and stage design",
+        "icon": "/assets/images/react.png",
+        "img": "/assets/images/setDesign.jpg"
+      },
+      {
+        "name": "Live musicians, bands and DJs",
+        "icon": "/assets/images/setDesign.jpg"
+      },
+      {
+        "name": "Visuals, lighting and projection mapping",
+        "icon": "/assets/images/setDesign.jpg"
+      },
+      {
+        "name": "Performers, dancers and circus skills",
+        "icon": "/assets/images/setDesign.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "about": {
+    "items": [
+      {
+        "title": "Who is the Hex Project",
+        "description": "",
+        "firstBulletPoint": "Professional rental company",
+        "secondBulletPoint": "High end professional audio solutions",
+        "thirdBulletPoint": "Tailor made event package working with pur partners",
+        "fourthBulletPoint": "Highly distinctive Element 5 HEX systems",
+        "img": "/assets/images/hexRig.jpg",
+        "primaryAction": {
+          "text": "More info",
+          "href": "product"
+        }
+      }
+    ],
+    "sections": [
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "gallery": {
+      "title": "Gallery"
+    },
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+    }
+  }
+}
