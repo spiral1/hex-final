@@ -7,6 +7,7 @@ const Features = () => {
   const { company, features } = config;
   const { title, description, items: featuresList } = features;
   const { logo, name: companyName } = company;
+  const [item] = features.items;
   return (
     
     <div className={`py-12 `} id="features">
@@ -47,7 +48,9 @@ const Features = () => {
                   </div>
                 </dt>
 
-                <div className="w-sreen mt-5 bg-white h-60"></div>
+                <div className="w-sreen mt-5  h-60">
+                <img className="h-6/6" src={feature.img} alt={item?.name} />
+                </div>
               </div>
             ))}
           </dl>

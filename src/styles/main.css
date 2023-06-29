@@ -10,19 +10,32 @@
 }
 
 .background{
-  background-image: url("/assets/images/bg.png"), linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+  background-image: url("/assets/images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
+a {
+  cursor: pointer;
+}
 
 .bg2{
-  background-image: url("/assets/images/bg2.jpg")
+  background-image: url("/assets/images/bg2.jpg");
 }
 
 .bg3{
-  background-image: url("/assets/images/bg3.jpg")
+  background-image: url("/assets/images/bg3.jpg");
 }
 
+.bg4{
+  background-color:rgba(51,51,51,0.6);
+}
+
+.bg5{
+ background-color: rgb(255,168,0,0.6);
+}
 .cutCorner{
   overflow: hidden;
 }
@@ -266,7 +279,6 @@ svg{
 
   .Contact {
     text-align: center;
-    max-width: 300px;
     margin: 20px auto;
   }
   

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import FsLightbox from "fslightbox-react";
 
 import config from '../config/index.json';
 import Divider from './Divider';
@@ -6,6 +7,17 @@ import Divider from './Divider';
 const Gallery = () => {
   const { company } = config;
   const { logo, name: companyName } = company;
+  const [lightboxController, setLightboxController] = useState({
+		toggler: false,
+		slide: 1
+	});
+
+  function openLightboxOnSlide(number) {
+		setLightboxController({
+			toggler: !lightboxController.toggler,
+			slide: number
+		});
+	}
 
   return (
     <div id="gallery" className="bg3">
@@ -21,11 +33,25 @@ const Gallery = () => {
         <Divider />
       </div>
       <ul id="hexGrid">
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(1)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
-                src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
+                src="/assets/images/gallery/thumbs/1.jpg"
+                alt=""
+              />
+              <h1>This is a title</h1>
+              <p>Some sample text about the article this hexagon leads to</p>
+            </a>
+            
+          </div>
+        </li>
+        
+        <li className="hex" onClick={() => openLightboxOnSlide(2)}>
+          <div className="hexIn">
+            <a className="hexLink" >
+              <img
+                src="/assets/images/gallery/thumbs/2.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -33,11 +59,12 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        
+        <li className="hex" onClick={() => openLightboxOnSlide(3)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
-                src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"
+                src="/assets/images/gallery/thumbs/3.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -45,11 +72,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(4)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
+                src="/assets/images/gallery/thumbs/8.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -57,11 +84,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(5)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
+                src="/assets/images/gallery/thumbs/5.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -69,11 +96,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(6)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
+                src="/assets/images/gallery/thumbs/6.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -81,11 +108,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(7)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
+                src="/assets/images/gallery/thumbs/7.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -93,11 +120,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(8)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
+                src="/assets/images/gallery/thumbs/4.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -105,11 +132,23 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(9)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg"
+                src="/assets/images/gallery/thumbs/16.jpg"
+                alt="" 
+              />
+              <h1>This is a title</h1>
+              <p>Some sample text about the article this hexagon leads to</p>
+            </a>
+          </div>        
+          </li>
+        <li className="hex" onClick={() => openLightboxOnSlide(10)}>
+          <div className="hexIn">
+            <a className="hexLink" href="#">
+              <img
+                src="/assets/images/gallery/thumbs/10.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -117,11 +156,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(11)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg"
+                src="/assets/images/gallery/thumbs/11.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -129,11 +168,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(12)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg"
+                src="/assets/images/gallery/thumbs/18.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -141,11 +180,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(13)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg"
+                src="/assets/images/gallery/thumbs/13.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -153,11 +192,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(14)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg"
+                src="/assets/images/gallery/thumbs/26.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -165,11 +204,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(15)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
+                src="/assets/images/gallery/thumbs/15.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -177,11 +216,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(16)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
+                src="/assets/images/gallery/thumbs/9.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -189,11 +228,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(17)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg"
+                src="/assets/images/gallery/thumbs/17.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -201,11 +240,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(18)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
+                src="/assets/images/gallery/thumbs/12.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -213,11 +252,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(19)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
+                src="/assets/images/gallery/thumbs/19.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -225,11 +264,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(20)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
+                src="/assets/images/gallery/thumbs/20.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -237,11 +276,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(21)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
+                src="/assets/images/gallery/thumbs/21.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -249,11 +288,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(22)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
+                src="/assets/images/gallery/thumbs/22.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -261,11 +300,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(23)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
+                src="/assets/images/gallery/thumbs/23.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -273,11 +312,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(24)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg"
+                src="/assets/images/gallery/thumbs/24.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -285,11 +324,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(25)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg"
+                src="/assets/images/gallery/thumbs/25.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -297,11 +336,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(26)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg"
+                src="/assets/images/gallery/thumbs/14.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -309,35 +348,11 @@ const Gallery = () => {
             </a>
           </div>
         </li>
-        <li className="hex">
+        <li className="hex" onClick={() => openLightboxOnSlide(27)}>
           <div className="hexIn">
             <a className="hexLink" href="#">
               <img
-                src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg"
-                alt=""
-              />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <img
-                src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg"
-                alt=""
-              />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <img
-                src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
+                src="/assets/images/gallery/thumbs/27.jpg"
                 alt=""
               />
               <h1>This is a title</h1>
@@ -346,6 +361,52 @@ const Gallery = () => {
           </div>
         </li>
       </ul>
+      <FsLightbox
+				toggler={lightboxController.toggler}
+				sources={[
+					
+          "assets/images/gallery/1.jpg",
+					"assets/images/gallery/2.jpg",
+          "assets/images/gallery/3.jpg",
+          "assets/images/gallery/8.jpg",
+          "assets/images/gallery/5.jpg",
+          "assets/images/gallery/6.jpg",
+          "assets/images/gallery/7.jpg",
+          "assets/images/gallery/4.jpg",
+          "assets/images/gallery/16.jpg",
+          "assets/images/gallery/10.jpg",
+          "assets/images/gallery/11.jpg",
+          "assets/images/gallery/18.jpg",
+          "assets/images/gallery/13.jpg",
+          "assets/images/gallery/26.jpg",
+          "assets/images/gallery/15.jpg",
+          "assets/images/gallery/9.jpg",
+          "assets/images/gallery/17.jpg",
+          "assets/images/gallery/12.jpg",
+          "assets/images/gallery/19.jpg",
+          "assets/images/gallery/20.jpg",
+          "assets/images/gallery/21.jpg",
+          "assets/images/gallery/22.jpg",
+          "assets/images/gallery/23.jpg",
+          "assets/images/gallery/24.jpg",
+          "assets/images/gallery/25.jpg",
+          "assets/images/gallery/14.jpg",
+          "assets/images/gallery/27.jpg"
+          
+					
+				]}
+        slide={lightboxController.slide}
+        svg = {{
+          slideButtons: {
+          previous: {
+            width: "40px",
+          },
+          next: {
+            title: "Next"
+          }
+        }
+      }}
+			/>
     </div>
   );
 };

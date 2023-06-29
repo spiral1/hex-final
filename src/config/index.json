@@ -29,7 +29,7 @@
   "mainHero": {
     "title": "The Hex Project",
     "subtitle": "Professional sound hire",
-    "description": "UK based, professional audio rental company providing scalable Element 5 systems to suit your events needs",
+    "description": "SOUND SYSTEM HIRE, INSTALLATION & INTEGRATION",
     "img": "/assets/images/hexLogo.png",
     "primaryAction": {
       "text": "Hire",
@@ -47,7 +47,7 @@
     "items": [
       {
         "title": "HEX 68R",
-        "description": "The 44M and 48M Series amplifiers from Linea Research represent a major advancement in amplifier technology. With their unique audio performance and integration of intelligent DSP, they offer a level of sound quality and performance that is unmatched. ",
+        "description": "The HEX 68R is a game-changer in the world of speakers. This one-of-a-kind solution merges a point source and array into a single, sleek enclosure. Thanks to Element 5 Systems' innovative ribbon array design, the HEX 68R delivers breathtakingly clear and accurate sound that will capture the imagination of your audience. The speakers boast impressive features, including:",
         "one": "Wide dispersion for optimal sound coverage",
         "two": "Exceptionally flat mid-frequency response for natural sound reproduction",
         "three": "Superb high-frequency characteristics for clear and crisp audio",
@@ -82,20 +82,23 @@
     "items": [
       {
         "name": "Bespoke set and stage design",
-        "icon": "/assets/images/react.png",
+        "icon": "/assets/images/setDesign.png",
         "img": "/assets/images/setDesign.jpg"
       },
       {
         "name": "Live musicians, bands and DJs",
-        "icon": "/assets/images/setDesign.jpg"
+        "icon": "/assets/images/band.jpg",
+        "img": "/assets/images/band.jpg"
       },
       {
         "name": "Visuals, lighting and projection mapping",
-        "icon": "/assets/images/setDesign.jpg"
+        "icon": "/assets/images/lighting.jpg",
+        "img": "/assets/images/lighting.jpg"
       },
       {
         "name": "Performers, dancers and circus skills",
-        "icon": "/assets/images/setDesign.jpg"
+        "icon": "/assets/images/circus.jpg",
+        "img": "/assets/images/circus.jpg"
       }
     ]
   },

@@ -35,16 +35,46 @@ const Contact = () => {
   };
 
 return (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div className='Contact'>
+        
+
+
+
+
+
+
+
+
+
+
+      <div className=" text-justify max-w-6xl xl:px-20 lg:px-12 sm:px-6 px-4 py-12">
       <h1
-            className={`w-full my-2 text-5xl font-bold  text-center text-primary`}
+            className={`w-full my- text-5xl font-bold  text-center text-primary`}
           >
             Contact Us
           </h1>
           <Divider />
       <p
       className="text-secondary"
-      >We're excited to hear from you and discuss how we can help make your event a success. Please fill out this form with your details and any specific requirements you may have, and we'll get back to you as soon as possible. Alternatively, you can give us a call or send us an email directly using the information provided on this page. We pride ourselves on providing exceptional customer service and ensuring our clients have a seamless experience from start to finish, so don't hesitate to get in touch with us today!</p>
+      >We're excited to hear from you and discuss how we can help make your event a success. Please fill out this form with your details and any specific requirements you may have, and we'll get back to you as soon as possible. Alternatively, you can give us a call or send us an email directly using the information provided on this page. We pride ourselves on providing exceptional customer service and ensuring our clients have a seamless experience from start to finish, so don't hesitate to get in touch with us today!
+      </p>
+
+      <br></br>
+      <div className="max-w-2xl content-center">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id='form-input-control-email'
@@ -76,6 +106,8 @@ return (
         />
         <Button type='submit' color='green'>Submit</Button>
       </Form>
+      </div>
+      </div>
     </div>
   
   

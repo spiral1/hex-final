@@ -8,25 +8,28 @@ import config from '../config/index.json';
 const MainHero = () => {
   const { mainHero } = config;
   return (
-    <main className=" w-full h-screen ">
+    <div className='w-full h-screen'>
+    <main className=" w-full h-screen">
       <div className="sm:text-center">
-        <div className="grid place-items-center items-center mt-10 container">
+        <div className="grid place-items-center items-center mt-10">
           <Image
             src={mainHero.img}
             alt="Hex project logo"
-            width="400px"
-            height="391px"
+            width="370px"
+            height="454px"
             className="object-center"
           />
-
-          <h1 className="text-2xl tracking-tight font-bold text-white-500 sm:text-5xl md:text-6xl text-center">
+<div className='bg5'>
+          {/*<h3 className="text-2xl tracking-tight font-bold text-white-500 sm:text-2xl md:text-3xl text-center p-4">
             <span className={`block text-secondary xl:inline `}>
-              {mainHero.subtitle}
-            </span>
-          </h1>
-          <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center">
             {mainHero.description}
-          </p>
+            </span>
+          </h3>
+  */}
+          </div>
+          
+          
+          
         </div>
         <div className=" grid justify-items-center mt-5 sm:mt-8 sm:flex sm:justify-center justify-center">
           <div className="rounded-md shadow content-center">
@@ -54,6 +57,7 @@ const MainHero = () => {
         </div>
       </div>
     </main>
+    </div>
   );
 };
 
