@@ -72,7 +72,7 @@ const Menu = () => {
             className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
             <div
-              className={`rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
+              className={`fixed rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
@@ -96,7 +96,7 @@ const Menu = () => {
                     duration={1000}
                     key={item.name}
                     to={item.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
                   </Link>
@@ -104,7 +104,7 @@ const Menu = () => {
               </div>
               <a
                 href={callToAction.href}
-                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
+                className={`block w-full px-5 py-3 text-center  text-gray-900 bg-primary`}
               >
                 {callToAction.text}
               </a>

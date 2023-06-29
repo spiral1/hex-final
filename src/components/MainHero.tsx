@@ -16,7 +16,7 @@ const MainHero = () => {
             src={mainHero.img}
             alt="Hex project logo"
             width="370px"
-            height="454px"
+            height="470px"
             className="object-center"
           />
 <div className='bg5'>
