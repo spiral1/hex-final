@@ -34,7 +34,7 @@ const Features = () => {
               <div key={feature.name} className="">
                 <dt>
                   <div
-                    className={` flex items-center justify-center rounded-md text-tertiary border-primary`}
+                    className={`flex items-center justify-center rounded-md text-tertiary border-primary`}
                   >
                     <img
                       className={` h-6 w-6 rounded-full`}
@@ -48,7 +48,7 @@ const Features = () => {
                   </div>
                 </dt>
 
-                <div className="w-sreen mt-5  h-60">
+                <div className="w-sreen mt-5  ">
                 <img className="h-6/6" src={feature.img} alt={item?.name} />
                 </div>
               </div>
