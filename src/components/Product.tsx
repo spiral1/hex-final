@@ -81,6 +81,10 @@ const Product = () => {
             <p className={`text-secondary text-justify`}>
               {thirdItem?.description}
             </p>
+            <br></br>
+            <p className={`text-secondary text-justify`}>
+              {thirdItem?.description2}
+            </p>
             <ul className="list-disc text-secondary marker:text-primary ml-3 mt-5">
               <li>{thirdItem?.one}</li>
               <li>{thirdItem?.two}</li>
