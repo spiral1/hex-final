@@ -49,7 +49,7 @@ return (
       </p>
 
       <br></br>
-      <div className="max-w-4xl content-center">
+      <div className=" w-full content-center">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           
