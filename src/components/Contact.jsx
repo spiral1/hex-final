@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
 import Divider from './Divider';
+import config from '../config/index.json';
 
 
 
@@ -13,6 +14,8 @@ const TEMPLATE_ID = "template_qhophck";
 const USER_ID = "abWflE74HOsggEObb";
 
 const Contact = () => {
+  const { company } = config;
+  const { logo, name: companyName } = company;
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -35,7 +38,10 @@ const Contact = () => {
   };
 
 return (
-    <div className='Contact py-12' id="contact">
+    <div className='Contact py-12 flex flex-col items-center justify-center' id="contact">
+      <div>
+            <img src={logo} alt={companyName} className="w-16 h-16" />
+          </div>
       <div className=" text-justify max-w-6xl xl:px-20 lg:px-12 sm:px-6 px-4 py-12">
       <h1
             className={`w-full my- text-5xl font-bold  text-center text-primary`}
@@ -44,7 +50,7 @@ return (
           </h1>
           <Divider />
       <p
-      className="text-secondary"
+      className="text-secondary justify-center"
       >We're excited to hear from you and discuss how we can help make your event a success. Please fill out this form with your details and any specific requirements you may have, and we'll get back to you as soon as possible. Don't hesitate to get in touch with us today!
       </p>
 
