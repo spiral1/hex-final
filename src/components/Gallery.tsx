@@ -37,7 +37,7 @@ const Gallery = () => {
           <div className="hexIn">
             <a className="hexLink" >
               <img
-                src="/assets/images/gallery/thumbs/1.jpg"
+                src="/assets/images/gallery/thumbs/7.jpg"
                 alt=""
               />
               
@@ -73,7 +73,7 @@ const Gallery = () => {
           <div className="hexIn">
             <a className="hexLink" >
               <img
-                src="/assets/images/gallery/thumbs/8.jpg"
+                src="/assets/images/gallery/thumbs/5.jpg"
                 alt=""
               />
                           </a>
@@ -83,7 +83,7 @@ const Gallery = () => {
           <div className="hexIn">
             <a className="hexLink" >
               <img
-                src="/assets/images/gallery/thumbs/5.jpg"
+                src="/assets/images/gallery/thumbs/8.jpg"
                 alt=""
               />
                           </a>
@@ -103,7 +103,7 @@ const Gallery = () => {
           <div className="hexIn">
             <a className="hexLink" >
               <img
-                src="/assets/images/gallery/thumbs/7.jpg"
+                src="/assets/images/gallery/thumbs/1.jpg"
                 alt=""
               />
               </a>
@@ -193,7 +193,7 @@ const Gallery = () => {
           <div className="hexIn">
             <a className="hexLink">
               <img
-                src="/assets/images/gallery/thumbs/9.jpg"
+                src="/assets/images/gallery/thumbs/21.jpg"
                 alt=""
               />
               </a>
@@ -243,7 +243,7 @@ const Gallery = () => {
           <div className="hexIn">
             <a className="hexLink">
               <img
-                src="/assets/images/gallery/thumbs/21.jpg"
+                src="/assets/images/gallery/thumbs/9.jpg"
                 alt=""
               />
               </a>
@@ -315,13 +315,13 @@ const Gallery = () => {
 				toggler={lightboxController.toggler}
 				sources={[
 					
-          "assets/images/gallery/1.jpg",
+          "assets/images/gallery/7.jpg",
 					"assets/images/gallery/2.jpg",
           "assets/images/gallery/3.jpg",
-          "assets/images/gallery/8.jpg",
           "assets/images/gallery/5.jpg",
+          "assets/images/gallery/8.jpg",
           "assets/images/gallery/6.jpg",
-          "assets/images/gallery/7.jpg",
+          "assets/images/gallery/1.jpg",
           "assets/images/gallery/4.jpg",
           "assets/images/gallery/16.jpg",
           "assets/images/gallery/10.jpg",
@@ -330,12 +330,12 @@ const Gallery = () => {
           "assets/images/gallery/13.jpg",
           "assets/images/gallery/26.jpg",
           "assets/images/gallery/15.jpg",
-          "assets/images/gallery/9.jpg",
+          "assets/images/gallery/21.jpg",
           "assets/images/gallery/17.jpg",
           "assets/images/gallery/12.jpg",
           "assets/images/gallery/19.jpg",
           "assets/images/gallery/20.jpg",
-          "assets/images/gallery/21.jpg",
+          "assets/images/gallery/9.jpg",
           "assets/images/gallery/22.jpg",
           "assets/images/gallery/23.jpg",
           "assets/images/gallery/24.jpg",

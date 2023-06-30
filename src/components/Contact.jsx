@@ -49,9 +49,10 @@ return (
       </p>
 
       <br></br>
-      <div className="max-w-2xl content-center">
+      <div className="max-w-4xl content-center">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
+          
           id='form-input-control-email'
           control={Input}
           label='Email'
@@ -79,7 +80,7 @@ return (
           placeholder='Message…'
           required
         />
-        <Button type='submit' color='green'>Submit</Button>
+        <Button className="w-full flex items-center justify-center mt-5 px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-background hover:text-secondary hover:border-primary md:py-4 md:text-lg md:px-10"type='submit' color='green'>Submit</Button>
       </Form>
       </div>
       </div>
