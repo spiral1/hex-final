@@ -70,7 +70,7 @@ return (
           <Divider />
       <p
       className="text-secondary"
-      >We're excited to hear from you and discuss how we can help make your event a success. Please fill out this form with your details and any specific requirements you may have, and we'll get back to you as soon as possible. Alternatively, you can give us a call or send us an email directly using the information provided on this page. We pride ourselves on providing exceptional customer service and ensuring our clients have a seamless experience from start to finish, so don't hesitate to get in touch with us today!
+      >We're excited to hear from you and discuss how we can help make your event a success. Please fill out this form with your details and any specific requirements you may have, and we'll get back to you as soon as possible. Don't hesitate to get in touch with us today!
       </p>
 
       <br></br>
