@@ -33,12 +33,8 @@ const MainHero = () => {
         </div>
         <div className=" grid justify-items-center mt-5 sm:mt-8 sm:flex sm:justify-center justify-center">
           <div className="rounded-md shadow content-center">
-            <a
-              href={mainHero.primaryAction.href}
-              className={``}
-            >
-              {mainHero.primaryAction.text}
-            </a>
+            
+            
             <Link
               spy={true}
               active="active"

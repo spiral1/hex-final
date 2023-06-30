@@ -125,7 +125,7 @@ const Menu = () => {
                     duration={1000}
                     key={callToAction.text}
                     to={callToAction.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-gray-900"
                   >
                     {callToAction.text}
                   </Link>
