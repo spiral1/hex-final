@@ -44,6 +44,7 @@
   "product": {
     "title": "Our Equipment",
     "description": "The Element 5 Hex range of speakers has been designed from the ground up to deliver the highest possible volume and sound quality from a lightwight package with an incredibly small footprint. Not only do these speakers sound spectacular, but they also look the part, with a contemporary hexagonal styling to help distinguish your event audio from the rest. We are currently the only audio hire hire company officring this uniquely distinctive sound system.",
+    "extras": "/assets/images/danley.jpg",
     "items": [
       {
         "title": "HEX 68R",

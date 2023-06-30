@@ -40,8 +40,7 @@ const Gallery = () => {
                 src="/assets/images/gallery/thumbs/1.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
+              
             </a>
             
           </div>
@@ -54,8 +53,7 @@ const Gallery = () => {
                 src="/assets/images/gallery/thumbs/2.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
+              
             </a>
           </div>
         </li>
@@ -67,296 +65,248 @@ const Gallery = () => {
                 src="/assets/images/gallery/thumbs/3.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
+              
             </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(4)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/8.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+                          </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(5)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/5.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+                          </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(6)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/6.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+                          </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(7)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/7.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(8)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/4.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(9)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/16.jpg"
                 alt="" 
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+                          </a>
           </div>        
           </li>
         <li className="hex" onClick={() => openLightboxOnSlide(10)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/10.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(11)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/11.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(12)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/18.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(13)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/13.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(14)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/26.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(15)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink" >
               <img
                 src="/assets/images/gallery/thumbs/15.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(16)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/9.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(17)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/17.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(18)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/12.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(19)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/19.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(20)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/20.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(21)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/21.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(22)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/22.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(23)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/23.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(24)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/24.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(25)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/25.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(26)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/14.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              </a>
           </div>
         </li>
         <li className="hex" onClick={() => openLightboxOnSlide(27)}>
           <div className="hexIn">
-            <a className="hexLink" href="#">
+            <a className="hexLink">
               <img
                 src="/assets/images/gallery/thumbs/27.jpg"
                 alt=""
               />
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
+             
             </a>
           </div>
         </li>

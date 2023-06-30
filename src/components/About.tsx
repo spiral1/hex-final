@@ -27,10 +27,10 @@ const About = () => {
                 {item?.title}
               </h3>
               <p className={`text-secondary text-justify`}>
-              Welcome to The Hex Project, a small but mighty player in the world of high-end audio solutions. We are a tight-knit collective of friendly, skilled individuals who bring a personal touch to your event needs. Despite our grassroots origins, we're dedicated professionals who deliver top-quality sound and an unmatched level of personalized service. Whether you're planning a private party, a music festival or a corporate conference, we've got the expertise and equipment to make your event a success. </p> 
+              Welcome to The Hex Project. We are a tight-knit collective of friendly, skilled individuals who bring a personal touch to your event needs. We're dedicated professionals who deliver top-quality sound and an unmatched level of personalised service. Whether you're planning a private party, a music festival or a corporate conference, we've got the expertise and equipment to make your event a success. </p> 
               <br></br>
               <p className={`text-secondary text-justify`}>
-              At The Hex Project, our commitment to excellence means you can expect crystal-clear, dynamic sound that rivals the biggest players in the industry. And, because we're a tight-knit group of friends and experts, you can expect a level of personalization that bigger companies just can't match. 
+              At The Hex Project, you can expect crystal-clear, dynamic sound that rivals the biggest players in the industry with a level of personalisation that bigger companies just can't match.
 </p>
 <br></br>
 <p className={`text-secondary text-justify`}>

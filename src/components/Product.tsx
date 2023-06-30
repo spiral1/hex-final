@@ -96,6 +96,12 @@ const Product = () => {
             <img src={thirdItem?.img} alt={thirdItem?.title} />
           </div>
         </div>
+        <div className={`flex flex-wrap bg-background`}>
+          <div className={` p-6 `}>
+           <img src={product.extras} alt="danley audio"/>
+          </div> 
+          
+        </div>
       </div>
     </section>
   );

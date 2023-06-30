@@ -22,7 +22,7 @@ const Features = () => {
             {title}
           </h1>
           <Divider />
-          <p className="mt-4 max-w-2xl text-justify text-xl text-secondary lg:mx-auto">
+          <p className="mt-4 max-w-2xl text-justify text-secondary lg:mx-auto">
             {description}
           </p>
           
