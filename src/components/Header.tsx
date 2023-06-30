@@ -48,12 +48,24 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
+              <Link
+                  spy={true}
+                  active="active"
+                  smooth={true}
+                  duration={1000}
+                  key={callToAction.text}
+                  to={callToAction.href}
+                  className="font-medium text-gray-200 hover:text-primary"
+                >
+                  
+                
               <a
                 href="#"
                 className={`font-medium text-primary hover:text-secondary`}
               >
                 Hire
               </a>
+              </Link>
             </div>
           </nav>
         </div>
@@ -106,7 +118,18 @@ const Menu = () => {
                 href={callToAction.href}
                 className={`block w-full px-5 py-3 text-center  text-gray-900 bg-primary`}
               >
-                {callToAction.text}
+                <Link
+                    spy={true}
+                    active="active"
+                    smooth={true}
+                    duration={1000}
+                    key={callToAction.text}
+                    to={callToAction.href}
+                    className="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-gray-900 hover:bg-gray-50"
+                  >
+                    {callToAction.text}
+                  </Link>
+                
               </a>
             </div>
           </Popover.Panel>

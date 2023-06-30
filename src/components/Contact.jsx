@@ -35,32 +35,7 @@ const Contact = () => {
   };
 
 return (
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div className='Contact'>
-        
-
-
-
-
-
-
-
-
-
-
+    <div className='Contact py-12' id="contact">
       <div className=" text-justify max-w-6xl xl:px-20 lg:px-12 sm:px-6 px-4 py-12">
       <h1
             className={`w-full my- text-5xl font-bold  text-center text-primary`}

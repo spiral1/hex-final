@@ -9,7 +9,7 @@ const Product = () => {
   const [firstItem, secondItem, thirdItem] = product.items;
 
   return (
-    <section className={`py-8 bg3`} id="product">
+    <section className={`py-12 bg3`} id="product">
       <div className={`container max-w-5xl mx-auto m-8`}>
         <div className="items-center">
           <img src={logo} alt={companyName} className="w-16 h-16 mx-auto" />

@@ -24,7 +24,7 @@
   ],
   "callToAction": {
     "text": "Hire",
-    "href": "#"
+    "href": "contact"
   },
   "mainHero": {
     "title": "The Hex Project",
@@ -33,7 +33,7 @@
     "img": "/assets/images/hexLogo.png",
     "primaryAction": {
       "text": "Hire",
-      "href": "#"
+      "href": "contact"
     },
     "secondaryAction": {
       "text": "More info",

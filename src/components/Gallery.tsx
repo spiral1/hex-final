@@ -20,7 +20,7 @@ const Gallery = () => {
 	}
 
   return (
-    <div id="gallery" className="bg3">
+    <div id="gallery" className="bg3 py-12">
       <div className="items-center">
         <img src={logo} alt={companyName} className="w-16 h-16 mx-auto" />
       </div>
