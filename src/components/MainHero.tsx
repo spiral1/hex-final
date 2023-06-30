@@ -35,10 +35,23 @@ const MainHero = () => {
           <div className="rounded-md shadow content-center">
             <a
               href={mainHero.primaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-background hover:text-secondary hover:border-primary md:py-4 md:text-lg md:px-10`}
+              className={``}
             >
               {mainHero.primaryAction.text}
             </a>
+            <Link
+              spy={true}
+              active="active"
+              smooth={true}
+              duration={1000}
+              key={mainHero.primaryAction.text}
+              to={mainHero.primaryAction.href}
+              href={mainHero.primaryAction.href}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-background hover:text-secondary hover:border-primary md:py-4 md:text-lg md:px-10`}
+            >
+                            {mainHero.primaryAction.text}
+
+            </Link>
           </div>
           <div className="mt-3 sm:mt-0 sm:ml-3">
             <Link
